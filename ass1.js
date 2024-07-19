@@ -1,4 +1,4 @@
-let score = 76; // Example score
+let score = 76; 
 
 if (score < 0 || score > 100) {
     console.log("Invalid score. Please enter a score between 0 and 100.");

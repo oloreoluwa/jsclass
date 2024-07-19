@@ -113,15 +113,15 @@ human("pelumi")
 
 // while loop
 
-const multiplication = (num1,num2)=> {
-    let i = 1;
-    while(i <= num2){
-    console.log(`${num1} * ${i} = ${num1 * i}`);
-    i++
-}
-}
-multiplication(2,12);
-multiplication(3,12);
+// const multiplication = (num1,num2)=> {
+//     let i = 1;
+//     while(i <= num2){
+//     console.log(`${num1} * ${i} = ${num1 * i}`);
+//     i++
+// }
+// }
+// multiplication(2,12);
+// multiplication(3,12);
 
 // for loop
 // const multiplication = (num1,num2)=> {
