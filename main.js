@@ -112,15 +112,16 @@ human("pelumi")
 // addition(6,7)
 
 // while loop
-// let i = 1
-// const multiplication = (num1,num2)=> {
-//     while(i <= num2){
-//     console.log(`${num1} * ${i} = ${num1 * i}`);
-//     i++
-// }
-// }
-// multiplication(2,12);
-// multiplication(3,12);
+
+const multiplication = (num1,num2)=> {
+    let i = 1;
+    while(i <= num2){
+    console.log(`${num1} * ${i} = ${num1 * i}`);
+    i++
+}
+}
+multiplication(2,12);
+multiplication(3,12);
 
 // for loop
 // const multiplication = (num1,num2)=> {
@@ -140,14 +141,14 @@ human("pelumi")
 // console.log(...andrew, ...andruw);
 
 // const product = ["bag", "pen", "book", "shoe", "laptop"]
-// console.log(product[1], product[4]);git
+// console.log(product[1], product[4]);
 
-const Product = {
-    Name: "Indomie",
-    category: "food",
-    price: 8000,
-    decription: "noodles",
-    rating: 9.2
-}
-console.log(Product.Name);
-console.log(Product.price);
+// const Product = {
+//     Name: "Indomie",
+//     category: "food",
+//     price: 8000,
+//     decription: "noodles",
+//     rating: 9.2
+// }
+// console.log(Product.Name);
+// console.log(Product.price);
